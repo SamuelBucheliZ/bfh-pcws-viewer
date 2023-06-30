@@ -15,7 +15,7 @@ export class PcwsRequestComponent implements OnInit {
   message: String;
   image: String;
 
-  pcwsUrl: string = 'https://bfh-pcws-mock.herokuapp.com/';
+  pcwsUrl: string = 'https://bfh-pcws-mock.herokuapp.com';
   codeRequest: CodeRequest = new CodeRequest(
     'allPermissions', 'PREMIUM',
     new AddressData('Max Muster', 'Musterstrasse 11', '9999', 'Musterhausen'));
