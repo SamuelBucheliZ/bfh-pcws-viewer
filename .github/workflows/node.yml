@@ -17,7 +17,7 @@ jobs:
           node-version: "18.x"
       - run: |
           npm install
-          ng build --base-href /bfh-pcws-viewer/
+          npm run ng -- build --base-href /bfh-pcws-viewer/
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
